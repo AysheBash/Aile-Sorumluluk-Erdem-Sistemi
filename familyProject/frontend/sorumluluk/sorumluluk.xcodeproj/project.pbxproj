@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD733C502F639231003D8FAD /* hayvan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD733C4F2F639231003D8FAD /* hayvan.jpg */; };
+		DD733C522F63927F003D8FAD /* muzee.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD733C512F63927F003D8FAD /* muzee.jpeg */; };
+		DD733C552F639922003D8FAD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DD733C542F639922003D8FAD /* Lottie */; };
+		DD733C572F639922003D8FAD /* Lottie-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DD733C562F639922003D8FAD /* Lottie-Dynamic */; };
+		DD733C592F639D5F003D8FAD /* splash_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = DD733C582F639D5F003D8FAD /* splash_animation.json */; };
+		DD750D532F6388680047AE18 /* film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D522F6388680047AE18 /* film.jpg */; };
+		DD750D552F638BCA0047AE18 /* boyama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D542F638BCA0047AE18 /* boyama.jpg */; };
+		DD750D572F638BD40047AE18 /* bisiklet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D562F638BD40047AE18 /* bisiklet.jpg */; };
+		DD750D5C2F638C0A0047AE18 /* kitap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D5A2F638C0A0047AE18 /* kitap.jpg */; };
+		DD750D602F638C150047AE18 /* oyun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D5E2F638C150047AE18 /* oyun.jpg */; };
+		DD750D612F638C150047AE18 /* piknik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D5F2F638C150047AE18 /* piknik.jpg */; };
+		DD750D632F638C1D0047AE18 /* yemek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD750D622F638C1D0047AE18 /* yemek.jpg */; };
+		DDE05B582F6059A700348C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE05B572F6059A700348C4D /* ContentView.swift */; };
+		DDE05B5A2F6059A800348C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE05B592F6059A800348C4D /* Assets.xcassets */; };
+		DDE05B5D2F6059A800348C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE05B5C2F6059A800348C4D /* Preview Assets.xcassets */; };
+		DDE05B672F60660600348C4D /* sorumlulukApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE05B662F60660600348C4D /* sorumlulukApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD733C4F2F639231003D8FAD /* hayvan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hayvan.jpg; sourceTree = "<group>"; };
+		DD733C512F63927F003D8FAD /* muzee.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muzee.jpeg; sourceTree = "<group>"; };
+		DD733C582F639D5F003D8FAD /* splash_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash_animation.json; sourceTree = "<group>"; };
+		DD750D522F6388680047AE18 /* film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = film.jpg; sourceTree = "<group>"; };
+		DD750D542F638BCA0047AE18 /* boyama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boyama.jpg; sourceTree = "<group>"; };
+		DD750D562F638BD40047AE18 /* bisiklet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bisiklet.jpg; sourceTree = "<group>"; };
+		DD750D5A2F638C0A0047AE18 /* kitap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitap.jpg; sourceTree = "<group>"; };
+		DD750D5E2F638C150047AE18 /* oyun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oyun.jpg; sourceTree = "<group>"; };
+		DD750D5F2F638C150047AE18 /* piknik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piknik.jpg; sourceTree = "<group>"; };
+		DD750D622F638C1D0047AE18 /* yemek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yemek.jpg; sourceTree = "<group>"; };
+		DDE05B522F6059A700348C4D /* sorumluluk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sorumluluk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE05B572F6059A700348C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDE05B592F6059A800348C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE05B5C2F6059A800348C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDE05B652F605D8D00348C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDE05B662F60660600348C4D /* sorumlulukApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sorumlulukApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE05B4F2F6059A700348C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD733C552F639922003D8FAD /* Lottie in Frameworks */,
+				DD733C572F639922003D8FAD /* Lottie-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE05B492F6059A700348C4D = {
+			isa = PBXGroup;
+			children = (
+				DDE05B542F6059A700348C4D /* sorumluluk */,
+				DDE05B532F6059A700348C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE05B532F6059A700348C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE05B522F6059A700348C4D /* sorumluluk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE05B542F6059A700348C4D /* sorumluluk */ = {
+			isa = PBXGroup;
+			children = (
+				DDE05B652F605D8D00348C4D /* Info.plist */,
+				DDE05B572F6059A700348C4D /* ContentView.swift */,
+				DDE05B592F6059A800348C4D /* Assets.xcassets */,
+				DDE05B5B2F6059A800348C4D /* Preview Content */,
+				DDE05B662F60660600348C4D /* sorumlulukApp.swift */,
+				DD750D522F6388680047AE18 /* film.jpg */,
+				DD750D542F638BCA0047AE18 /* boyama.jpg */,
+				DD750D562F638BD40047AE18 /* bisiklet.jpg */,
+				DD750D5A2F638C0A0047AE18 /* kitap.jpg */,
+				DD733C512F63927F003D8FAD /* muzee.jpeg */,
+				DD733C4F2F639231003D8FAD /* hayvan.jpg */,
+				DD750D5E2F638C150047AE18 /* oyun.jpg */,
+				DD750D5F2F638C150047AE18 /* piknik.jpg */,
+				DD750D622F638C1D0047AE18 /* yemek.jpg */,
+				DD733C582F639D5F003D8FAD /* splash_animation.json */,
+			);
+			path = sorumluluk;
+			sourceTree = "<group>";
+		};
+		DDE05B5B2F6059A800348C4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDE05B5C2F6059A800348C4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE05B512F6059A700348C4D /* sorumluluk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE05B602F6059A800348C4D /* Build configuration list for PBXNativeTarget "sorumluluk" */;
+			buildPhases = (
+				DDE05B4E2F6059A700348C4D /* Sources */,
+				DDE05B4F2F6059A700348C4D /* Frameworks */,
+				DDE05B502F6059A700348C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sorumluluk;
+			packageProductDependencies = (
+				DD733C542F639922003D8FAD /* Lottie */,
+				DD733C562F639922003D8FAD /* Lottie-Dynamic */,
+			);
+			productName = sorumluluk;
+			productReference = DDE05B522F6059A700348C4D /* sorumluluk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE05B4A2F6059A700348C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DDE05B512F6059A700348C4D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DDE05B4D2F6059A700348C4D /* Build configuration list for PBXProject "sorumluluk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE05B492F6059A700348C4D;
+			packageReferences = (
+				DD733C532F639922003D8FAD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = DDE05B532F6059A700348C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE05B512F6059A700348C4D /* sorumluluk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE05B502F6059A700348C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD733C522F63927F003D8FAD /* muzee.jpeg in Resources */,
+				DD750D572F638BD40047AE18 /* bisiklet.jpg in Resources */,
+				DD750D612F638C150047AE18 /* piknik.jpg in Resources */,
+				DD750D5C2F638C0A0047AE18 /* kitap.jpg in Resources */,
+				DD750D632F638C1D0047AE18 /* yemek.jpg in Resources */,
+				DD733C502F639231003D8FAD /* hayvan.jpg in Resources */,
+				DDE05B5D2F6059A800348C4D /* Preview Assets.xcassets in Resources */,
+				DD733C592F639D5F003D8FAD /* splash_animation.json in Resources */,
+				DD750D602F638C150047AE18 /* oyun.jpg in Resources */,
+				DDE05B5A2F6059A800348C4D /* Assets.xcassets in Resources */,
+				DD750D532F6388680047AE18 /* film.jpg in Resources */,
+				DD750D552F638BCA0047AE18 /* boyama.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE05B4E2F6059A700348C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE05B672F60660600348C4D /* sorumlulukApp.swift in Sources */,
+				DDE05B582F6059A700348C4D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDE05B5E2F6059A800348C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE05B5F2F6059A800348C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE05B612F6059A800348C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sorumluluk/Preview Content\"";
+				DEVELOPMENT_TEAM = K3J7B8YC52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sorumluluk/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Görev kanıtı çekmek için kameranıza erişmemiz gerekiyor.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysebas.sorumluluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE05B622F6059A800348C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sorumluluk/Preview Content\"";
+				DEVELOPMENT_TEAM = K3J7B8YC52;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sorumluluk/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Görev kanıtı çekmek için kameranıza erişmemiz gerekiyor.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aysebas.sorumluluk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE05B4D2F6059A700348C4D /* Build configuration list for PBXProject "sorumluluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE05B5E2F6059A800348C4D /* Debug */,
+				DDE05B5F2F6059A800348C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE05B602F6059A800348C4D /* Build configuration list for PBXNativeTarget "sorumluluk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE05B612F6059A800348C4D /* Debug */,
+				DDE05B622F6059A800348C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD733C532F639922003D8FAD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD733C542F639922003D8FAD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD733C532F639922003D8FAD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		DD733C562F639922003D8FAD /* Lottie-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD733C532F639922003D8FAD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = "Lottie-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDE05B4A2F6059A700348C4D /* Project object */;
+}
